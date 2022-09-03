@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-container {
+    margin: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.navbar-container img {
+    width: 150px;
+}
+
+.list {
+    text-align: center;
+    list-style: none;
+    margin-top: -60px;
+}
+
+.list li {
+    display: inline;
+    margin: 10px;
+}
+
+.list .active {
+    font-weight: 700;
+}
+
+.list .active::before {    
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    top: 60px;
+    left: 500px;
+    border-bottom: 4px solid #000;
+}
+
+.button-group {
+    float: right;
+    margin-right: 50px;
+}
+
+.search-icon {
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+.search-icon svg {
+    width: 28px;
+}
+
+.button-group div {
+    float: left;
+}
+
+.search-btn {
+    margin-top: -40px;
+}
+
+.button-group button {
+    background-color: transparent;
+}
+
+.nav-button {
+    padding: 5px 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.person-hero-image {
+    margin: 30px;
+}
+
+.person-hero-image img{
+    margin-top: 50px;
+    width: 520px;
+}
+
+.square {
+    position: absolute;
+    top: 440px;
+    left: 200px;
+    z-index: -1;
+}
+
+.star {
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+
+.small-star {
+    position: absolute;
+    top: 780px;
+    left: 700px;
+}
+
+.small-star img {
+    width: 40px;
+}
+
+.globe {
+    position: absolute;
+    top: 120px;
+    right: 600px;
+}
+
+.hero-container-right {
+    width: 800px;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    right: 100px;
+}
+
+.hero-heading {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    margin: 20px 0px;
+}
+
+.hero-description {
+    font-family: 'Poppins', sans-serif;
+    margin: 40px 60px;
+    color: #a6a6a6;
+}
+
+.button-email {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 20px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #a6a6a6;
+    margin: 10px;
+}
+
+.button-join {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 20px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+}
+
+.footer {
+    width: 900px;
+    position: absolute;
+    top: 470px;
+}
+
+.contact-heading {
+    font-family: 'Poppins';
+    font-size: 30px;
+    color: #a6a6a6;
+    font-weight: 500;
+}
+
+.icons img {
+    width: 30px;
+    margin: 10px 20px;
+}
